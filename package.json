@@ -10,7 +10,7 @@
     "eslint": "^4.3.0",
     "gulp": "^3.9.0",
     "gulp-concat": "2.6.1",
-    "gulp-connect": "5.0.0",
+    "gulp-connect": "^5.6.1",
     "gulp-eslint": "^4.0.0",
     "gulp-load-plugins": "^1.0.0",
     "gulp-sass": "3.1.0",
