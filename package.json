@@ -4,23 +4,43 @@
   "description": "Todo App with Indexeddb.",
   "scripts": {
     "lint": "eslint '.'",
-    "test": "npm run lint"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack --mode=development --config ./webpack.config.js"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "copy-webpack-plugin": "^5.0.2",
+    "css-loader": "^2.1.1",
     "eslint": "^4.3.0",
-    "gulp": "^3.9.0",
-    "gulp-concat": "2.6.1",
-    "gulp-connect": "^5.6.1",
-    "gulp-eslint": "^4.0.0",
-    "gulp-load-plugins": "^1.0.0",
-    "gulp-sass": "3.1.0",
-    "gulp-uglify": "3.0.0",
-    "gulp-util": "3.0.8"
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
   },
   "repository": {
     "type": "git"
   },
   "license": "MIT",
   "bugs": {},
-  "homepage": ""
+  "homepage": "",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "navigo": "^7.1.2",
+    "page": "^1.11.4"
+  }
 }
